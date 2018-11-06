@@ -58,7 +58,6 @@ public class EnvAgent extends Agent {
                 ACLMessage reply = msg.createReply();
                 //Integer price = (Integer) catalogue.get(title);
                 if (start != null) {
-
                     reply.setPerformative(ACLMessage.PROPOSE);
                     reply.setContent(start.toString()+":"+getPerceptSeenBy());
                 } else {

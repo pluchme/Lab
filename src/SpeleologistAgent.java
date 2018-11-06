@@ -51,7 +51,6 @@ public class SpeleologistAgent extends Agent {
                             if (reply.getContent().contains("dead"))
                                 doDelete();
                         }
-
                         }
                      else {
                         block();

@@ -17,7 +17,6 @@ public class NavigationAgent extends Agent {
             MessageTemplate mt = MessageTemplate.MatchPerformative(ACLMessage.REQUEST);
             ACLMessage msg = myAgent.receive(mt);
 
-
             if (msg != null) {
                 ACLMessage reply = msg.createReply();
 
