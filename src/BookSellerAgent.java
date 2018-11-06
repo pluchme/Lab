@@ -5,10 +5,12 @@ import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
 
 import java.util.Hashtable;
+
 public class BookSellerAgent extends Agent {
     // The catalogue of books for sale (maps the title of a book to its price)
     private Hashtable catalogue;
     private BookSellerGui myGui;
+
     // Put agent initializations here
     protected void setup() {
         // Create the catalogue
@@ -27,7 +29,7 @@ public class BookSellerAgent extends Agent {
         // Printout a dismissal message
         myGui.dispose();
 
-        System.out.println("Seller - agent " + getAID().getName() +"terminating.");
+        System.out.println("Seller - agent " + getAID().getName() + "terminating.");
     }
 
     /**
@@ -40,6 +42,7 @@ public class BookSellerAgent extends Agent {
             }
         });
     }
+
     private class OfferRequestsServer extends CyclicBehaviour {
         public void action() {
             MessageTemplate mt = MessageTemplate.MatchPerformative(ACLMessage.CFP);
@@ -53,19 +56,18 @@ public class BookSellerAgent extends Agent {
                     // The requested book is available for sale. Reply with the price
                     reply.setPerformative(ACLMessage.PROPOSE);
                     reply.setContent(String.valueOf(price.intValue()));
-                }
-                else {
+                } else {
                     // The requested book is NOT available for sale.
                     reply.setPerformative(ACLMessage.REFUSE);
                     reply.setContent("not-available");
                 }
                 myAgent.send(reply);
-            }
-            else {
+            } else {
                 block();
             }
         }
     } // End of inner class OfferRequestsServer
+
     private class PurchaseOrdersServer extends CyclicBehaviour {
         public void action() {
             MessageTemplate mt = MessageTemplate.MatchPerformative(ACLMessage.ACCEPT_PROPOSAL);
@@ -78,16 +80,14 @@ public class BookSellerAgent extends Agent {
                 Integer price = (Integer) catalogue.remove(title);
                 if (price != null) {
                     reply.setPerformative(ACLMessage.INFORM);
-                    System.out.println(title+" sold to agent "+msg.getSender().getName());
-                }
-                else {
+                    System.out.println(title + " sold to agent " + msg.getSender().getName());
+                } else {
                     // The requested book has been sold to another buyer in the meanwhile .
                     reply.setPerformative(ACLMessage.FAILURE);
                     reply.setContent("not-available");
                 }
                 myAgent.send(reply);
-            }
-            else {
+            } else {
                 block();
             }
         }

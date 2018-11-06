@@ -12,39 +12,42 @@ public class BookBuyerAgent extends Agent {
     // The list of known seller agents
     private AID[] sellerAgents = {new AID("seller1", AID.ISLOCALNAME),
             new AID("seller2", AID.ISLOCALNAME)};
+
     // Put agent initializations here
     protected void setup() {
         // Printout a welcome message
-        System.out.println("Hello! Buyer-agent "+getAID().getName()+" is ready.");
+        System.out.println("Hello! Buyer-agent " + getAID().getName() + " is ready.");
 
         // Get the title of the book to buy as a start-up argument
         Object[] args = getArguments();
         if (args != null && args.length > 0) {
             targetBookTitle = (String) args[0];
-            System.out.println("Trying to buy "+targetBookTitle);
+            System.out.println("Trying to buy " + targetBookTitle);
             addBehaviour(new TickerBehaviour(this, 600) {
                 protected void onTick() {
                     myAgent.addBehaviour(new RequestPerformer());
                 }
-            } );
-        }
-        else {
+            });
+        } else {
             // Make the agent terminate immediately
             System.out.println("No book title specified");
             doDelete();
         }
     }
+
     // Put agent clean-up operations here
     protected void takeDown() {
         // Printout a dismissal message
-        System.out.println("Buyer-agent "+getAID().getName()+" terminating.");
+        System.out.println("Buyer-agent " + getAID().getName() + " terminating.");
     }
+
     private class RequestPerformer extends Behaviour {
         private AID bestSeller; // The agent who provides the best offer
         private int bestPrice; // The best offered price
         private int repliesCnt = 0; // The counter of replies from seller agents
         private MessageTemplate mt; // The template to receive replies
         private int step = 0;
+
         public void action() {
             switch (step) {
                 case 0:
@@ -55,7 +58,7 @@ public class BookBuyerAgent extends Agent {
                     }
                     cfp.setContent(targetBookTitle);
                     cfp.setConversationId("book-trade");
-                    cfp.setReplyWith("cfp"+System.currentTimeMillis()); // Unique value
+                    cfp.setReplyWith("cfp" + System.currentTimeMillis()); // Unique value
                     myAgent.send(cfp);
                     // Prepare the template to get proposals
                     mt = MessageTemplate.and(MessageTemplate.MatchConversationId("book-trade"),
@@ -81,8 +84,7 @@ public class BookBuyerAgent extends Agent {
                             // We received all replies
                             step = 2;
                         }
-                    }
-                    else {
+                    } else {
                         block();
                     }
                     break;
@@ -92,7 +94,7 @@ public class BookBuyerAgent extends Agent {
                     order.addReceiver(bestSeller);
                     order.setContent(targetBookTitle);
                     order.setConversationId("book-trade");
-                    order.setReplyWith("order"+System.currentTimeMillis());
+                    order.setReplyWith("order" + System.currentTimeMillis());
                     myAgent.send(order);
                     // Prepare the template to get the purchase order reply
                     mt = MessageTemplate.and(MessageTemplate.MatchConversationId("book-trade"),
@@ -106,18 +108,18 @@ public class BookBuyerAgent extends Agent {
                         // Purchase order reply received
                         if (reply.getPerformative() == ACLMessage.INFORM) {
                             // Purchase successful. We can terminate
-                            System.out.println(targetBookTitle+" successfully purchased.");
-                            System.out.println("Price = "+bestPrice);
+                            System.out.println(targetBookTitle + " successfully purchased.");
+                            System.out.println("Price = " + bestPrice);
                             myAgent.doDelete();
                         }
                         step = 4;
-                    }
-                    else {
+                    } else {
                         block();
                     }
                     break;
             }
         }
+
         public boolean done() {
             return ((step == 2 && bestSeller == null) || step == 4);
         }
