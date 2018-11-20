@@ -1,3 +1,5 @@
+package aima.core.environment.wumpusworld;
+
 /**
  * Artificial Intelligence A Modern Approach (3rd Edition): page 236.<br>
  * <br>

@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b9c734-d0fc-4604-afee-af57bad9cece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BookBuyerAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookSellerAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookSellerGui.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnvironmentAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookBuyerAgent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookBuyerAgent$RequestPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookBuyerAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerAgent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerAgent$OfferRequestsServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerAgent$PurchaseOrdersServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerGui$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerGui$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/BookSellerGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvAgent$OfferRequestsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/EnvAgent$OfferRequestsServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvAgent$movingListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/EnvAgent$movingListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/EnvAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvironmentAgent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvironmentAgent$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvironmentAgent$Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/EnvironmentAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/NavigationAgent$OfferRequestsServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/NavigationAgent$OfferRequestsServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/NavigationAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/NavigationAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab/SpeleologistAgent$RequestPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab/SpeleologistAgent$RequestPerformer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +40,9 @@
         <counts>
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpeleologistAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="1632">
+              <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EnvAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="1122">
+              <caret line="75" selection-start-line="47" selection-start-column="3" selection-end-line="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NavigationAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-219">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="149">
+              <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WumpusCave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="64" column="72" lean-forward="true" selection-start-line="64" selection-start-column="72" selection-end-line="64" selection-end-column="72" />
+            <state relative-caret-position="1020">
+              <caret line="64" column="72" selection-start-line="64" selection-start-column="72" selection-end-line="64" selection-end-column="72" />
               <folding>
                 <element signature="e#3047#3048#0" expanded="true" />
                 <element signature="e#3065#3066#0" expanded="true" />
@@ -228,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="y" value="5" />
     <option name="width" value="1750" />
@@ -275,7 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,11 +325,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541467272830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542217907655" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/multagsys-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -396,10 +414,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -433,300 +451,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PropositionSymbol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/ast/AtomicSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/environment/wumpusworld/WumpusPercept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/PLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/DPLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/kb/data/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/AbstractPLVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/DPLLSatisfiable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="160" column="70" selection-start-line="160" selection-start-column="70" selection-end-line="160" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/BiconditionalElimination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ClauseCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DPLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/agent/KBAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ImplicationElimination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="68" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/DistributeAndOverOr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/MoveNotInwards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/ast/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/fol/parsing/ast/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ConvertToConjunctionOfClauses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/PLResolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="173" column="69" selection-start-line="173" selection-start-column="69" selection-end-line="173" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/kb/KnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OptimizedDPLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/SymbolCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ImplicationElimination.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/parsing/ast/AtomicSentence.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/BiconditionalElimination.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/inference/SATSolver.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/DistributeOrOverAnd.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/BasicGatherer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToDNF.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/kb/data/Clause.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToConjunctionOfClauses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1556#1564#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToCNF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/Metrics.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WumpusFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/propositional/agent/KBAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HybridWumpusAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnvironmentAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WumpusKnowledgeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PropositionSymbol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/ast/AtomicSentence.java" />
+    <entry file="file://$PROJECT_DIR$/src/Sentence.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/environment/wumpusworld/WumpusPercept.java" />
+    <entry file="file://$PROJECT_DIR$/src/KnowledgeBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/PLParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/DPLL.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/kb/data/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/AbstractPLVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/DPLLSatisfiable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/BiconditionalElimination.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ClauseCollector.java" />
+    <entry file="file://$PROJECT_DIR$/src/DPLL.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/agent/KBAgent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ImplicationElimination.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/DistributeAndOverOr.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/MoveNotInwards.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/parsing/ast/Sentence.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/fol/parsing/ast/Sentence.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/ConvertToConjunctionOfClauses.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/inference/PLResolution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/kb/KnowledgeBase.java" />
+    <entry file="file://$PROJECT_DIR$/src/OptimizedDPLL.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aima/core/logic/propositional/visitors/SymbolCollector.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ImplicationElimination.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/parsing/ast/AtomicSentence.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/BiconditionalElimination.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/inference/SATSolver.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/DistributeOrOverAnd.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/BasicGatherer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToDNF.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/kb/data/Clause.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToConjunctionOfClauses.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/visitors/ConvertToCNF.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/Metrics.java" />
+    <entry file="file://$PROJECT_DIR$/src/WumpusFunctions.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/propositional/agent/KBAgent.java" />
+    <entry file="file://$PROJECT_DIR$/src/HybridWumpusAgent.java" />
+    <entry file="file://$PROJECT_DIR$/src/EnvironmentAgent.java" />
+    <entry file="file://$PROJECT_DIR$/src/WumpusKnowledgeBase.java" />
     <entry file="file://$PROJECT_DIR$/src/WumpusAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -747,23 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WumpusPercept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookBuyerAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BookBuyerAgent.java" />
     <entry file="jar://$USER_HOME$/Downloads/JADE-all-4.5.0/JADE-bin-4.5.0/jade/lib/jade.jar!/jade/lang/acl/ACLMessage.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -778,10 +526,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BookSellerAgent.java">
+    <entry file="file://$PROJECT_DIR$/src/BookSellerAgent.java" />
+    <entry file="file://$PROJECT_DIR$/src/WumpusPercept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SpeleologistAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="103" column="26" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnvAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="75" selection-start-line="47" selection-start-column="3" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WumpusCave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="64" column="72" lean-forward="true" selection-start-line="64" selection-start-column="72" selection-end-line="64" selection-end-column="72" />
+        <state relative-caret-position="1020">
+          <caret line="64" column="72" selection-start-line="64" selection-start-column="72" selection-end-line="64" selection-end-column="72" />
           <folding>
             <element signature="e#3047#3048#0" expanded="true" />
             <element signature="e#3065#3066#0" expanded="true" />
@@ -801,30 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnvAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SpeleologistAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NavigationAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="149">
+          <caret line="42" column="76" lean-forward="true" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

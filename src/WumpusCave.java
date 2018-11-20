@@ -1,6 +1,6 @@
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.Set;
+package aima.core.environment.wumpusworld;
+
+import java.util.*;
 
 /**
  * Artificial Intelligence A Modern Approach (3rd Edition): page 236.<br>
@@ -151,16 +151,7 @@ public class WumpusCave {
 		}
 		return new AgentPosition(position.getX(), position.getY(), orientation);
 	}
-	public AgentPosition go(AgentPosition position,String orientation){
-		AgentPosition.Orientation o = null;
-		switch (orientation) {
-			case "FACING_NORTH": o = AgentPosition.Orientation.FACING_NORTH; break;
-			case "FACING_SOUTH": o = AgentPosition.Orientation.FACING_SOUTH; break;
-			case "FACING_EAST": o = AgentPosition.Orientation.FACING_EAST; break;
-			case "FACING_WEST": o = AgentPosition.Orientation.FACING_WEST; break;
-		}
-		return moveForward(new AgentPosition(position.getX(), position.getY(), o));
-	}
+
 	public AgentPosition turnRight(AgentPosition position) {
 		AgentPosition.Orientation orientation = null;
 		switch (position.getOrientation()) {
@@ -186,30 +177,26 @@ public class WumpusCave {
 		for (int y = caveYDimension; y >= 1; y--) {
 			for (int x = 1; x <= caveXDimension; x++) {
 				Room r = new Room(x, y);
-				String txt = info(r);
+				String txt = "";
+				if (r.equals(start.getRoom()))
+					txt += "S";
+				if (r.equals(gold))
+					txt += "G";
+				if (r.equals(wumpus))
+					txt += "W";
+				if (isPit(r))
+					txt += "P";
+
+				if (txt.isEmpty())
+					txt = ". ";
+				else if (txt.length() == 1)
+					txt += " ";
+				else if ( txt.length() > 2) // cannot represent...
+					txt = txt.substring(0, 2);
 				builder.append(txt);
 			}
 			builder.append("\n");
 		}
 		return builder.toString();
-	}
-	public String info(Room r){
-		String txt = "";
-		if (r.equals(start.getRoom()))
-			txt += "S";
-		if (r.equals(gold))
-			txt += "G";
-		if (r.equals(wumpus))
-			txt += "W";
-		if (isPit(r))
-			txt += "P";
-
-		if (txt.isEmpty())
-			txt = ". ";
-		else if (txt.length() == 1)
-			txt += " ";
-		else if ( txt.length() > 2) // cannot represent...
-			txt = txt.substring(0, 2);
-		return txt;
 	}
 }

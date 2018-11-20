@@ -1,3 +1,7 @@
+package aima.core.environment.wumpusworld;
+
+import aima.core.agent.Percept;
+
 /**
  * Artificial Intelligence A Modern Approach (3rd Edition): page 237.<br>
  * <br>
@@ -18,7 +22,7 @@
  * @author Ciaran O'Reilly
  * @author Ruediger Lunde
  */
-public class WumpusPercept  {
+public class WumpusPercept implements Percept {
 	private boolean stench;
 	private boolean breeze;
 	private boolean glitter;
@@ -40,7 +44,7 @@ public class WumpusPercept  {
 		return this;
 	}
 
-		public WumpusPercept setBump() {
+	public WumpusPercept setBump() {
 		bump = true;
 		return this;
 	}
